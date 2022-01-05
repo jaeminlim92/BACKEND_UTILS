@@ -14,5 +14,5 @@ package com.my.board.project.vo;
 public class boardVo {
     private String boardId;
     private String boardNm;
-    private String boardCntn;
+    private String boardCntn; 
 }
