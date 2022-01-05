@@ -12,5 +12,7 @@ package com.my.board.project.vo;
  * 2022/01/05        jaeminlim       최초 생성
  */
 public class boardVo {
-
+    private String boardId;
+    private String boardNm;
+    private String boardCntn;
 }
