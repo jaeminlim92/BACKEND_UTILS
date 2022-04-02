@@ -1,25 +1,25 @@
 package com.my.board.project.vo;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
 /**
  * packageName    : com.my.board.project.vo
- * fileName       : boardVo
+ * fileName       : SearchDto
  * author         : jaeminlim
- * date           : 2022/01/05
+ * date           : 2022/03/12
  * description    :
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
- * 2022/01/05        jaeminlim       최초 생성
+ * 2022/03/12        jaeminlim       최초 생성
  */
 @Getter
 @Setter
 @ToString
-public class boardVo {
-    private String boardId;
-    private String boardNm;
-    private String boardCntn;
+@NoArgsConstructor
+public class SearchDto {
+    private int orderType;
 }
