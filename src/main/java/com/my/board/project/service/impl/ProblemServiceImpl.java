@@ -1,8 +1,8 @@
 package com.my.board.project.service.impl;
 
 import com.my.board.project.service.ProblemService;
+import com.my.board.project.util.ApiUtils;
 import com.my.board.project.util.TrmCompare;
-import com.my.board.project.vo.SearchDto;
 import com.my.board.project.vo.TrmListResDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

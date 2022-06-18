@@ -1,6 +1,6 @@
 package com.my.board.project.service;
 
-import com.my.board.project.vo.SearchDto;
+import com.my.board.project.util.ApiUtils;
 import com.my.board.project.vo.TrmListResDto;
 
 public interface ProblemService {
